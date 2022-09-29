@@ -13,8 +13,8 @@ function CodeEditor() {
     }, [])
     return (
         <CodeMirror
-            value=""
-            width="50%"
+            className="w-full"
+            value="console.log('This is Codemiror')"
             height="100vh"
             theme={dracula}
             extensions={extensions}

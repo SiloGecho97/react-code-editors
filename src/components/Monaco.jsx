@@ -5,9 +5,8 @@ function Monaco() {
     return (
         <MonacoEditor
             height="100vh"
-            width="50%"
             language="javascript"
-            value="<h1>I ♥ react-monacoeditor</h1>"
+            value="let i = 'I ♥ react-monacoeditor';"
             options={{
                 theme: 'vs-dark',
             }}

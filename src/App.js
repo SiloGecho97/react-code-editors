@@ -5,7 +5,7 @@ import Monaco from './components/Monaco'
 
 function App() {
     return (
-        <div className="flex">
+        <div className="flex justify-center w-full">
             <CodeEditor />
             <Monaco />
         </div>
